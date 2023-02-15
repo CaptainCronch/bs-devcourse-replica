@@ -39,7 +39,7 @@ h3 {
   --bs-btn-padding-x: 2rem;
   --bs-btn-font-size: 2rem;
   border-radius: 10rem;
-  margin: 60px 0 0px;
+  margin: 30px 0 0;
   font-weight: 600;
 }
 
@@ -54,4 +54,24 @@ h3 {
 
 #nav p {
   display: inline;
+}
+
+@media (max-width: 960px) {
+  html {
+    font-size: 12px;
+  }
+  #nav p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .display-1 {
+    font-size: 4.5rem;
+  }
+  #nav .ms-5 {
+    margin-left: 0 !important;
+  }
+  #nav .me-5 {
+    margin-right: 0 !important;
+  }
 }/*# sourceMappingURL=style.css.map */
