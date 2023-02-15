@@ -1,0 +1,36 @@
+#hero-background {
+  background-image: url(hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+  background-color: rgb(75, 75, 75);
+  background-blend-mode: multiply;
+}
+
+.curly-brackets {
+  color: #8b37ff;
+}
+
+.display-1 {
+  font-weight: 700;
+  font-size: 6rem;
+  margin-bottom: 30px;
+}
+
+.display-3 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+.btn-primary {
+  --bs-btn-padding-y: 1rem;
+  --bs-btn-padding-x: 2rem;
+  --bs-btn-font-size: 2rem;
+  border-radius: 10rem;
+  margin-top: 50px;
+  font-weight: 600;
+}/*# sourceMappingURL=style.css.map */
